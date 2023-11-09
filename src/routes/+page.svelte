@@ -1,5 +1,6 @@
 <script>
 	import {onMount} from 'svelte';
+	import { CyBer } from '../CyBer';
 	let cs = ''
 
 	onMount(()=>{
@@ -18,6 +19,10 @@
 	})
 
 </script>
+
+<svelte:head>
+	<title>CyBer.Onl</title>
+</svelte:head>
 
 <div class="w-full h-full flex flex-col justify-center">
 	<div class="card w-2/3 h-2/3 mx-auto overflow-hidden">
